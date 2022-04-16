@@ -1,6 +1,9 @@
 # CoD4Organizer
  An organizer for Call of Duty 4 to apply custom camos to weapons.
  
+# THIS MAY REQUIRE MORE TESTING
+From what I have tested on my PC, it works fine, however this may be different for other computers. If this is the case, leave an issue explaining what is going on.
+ 
 # How to install / uninstall
 Go to the releases tab, and download the .exe, place the exe in your Call of Duty 4/main folder, and run it. Allow administrator privileges, and click Install, this will start renaming and creating files needed for it.
 

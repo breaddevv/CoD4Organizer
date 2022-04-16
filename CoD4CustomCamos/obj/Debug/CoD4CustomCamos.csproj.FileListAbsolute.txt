@@ -1,11 +1,11 @@
+C:\Users\itzgr\Documents\GitHub\CoD4CustomCamos\CoD4CustomCamos\bin\Debug\CoD4Organiser.exe.config
+C:\Users\itzgr\Documents\GitHub\CoD4CustomCamos\CoD4CustomCamos\bin\Debug\CoD4Organiser.exe
+C:\Users\itzgr\Documents\GitHub\CoD4CustomCamos\CoD4CustomCamos\bin\Debug\CoD4Organiser.pdb
 C:\Users\itzgr\Documents\GitHub\CoD4CustomCamos\CoD4CustomCamos\obj\Debug\CoD4CustomCamos.csproj.AssemblyReference.cache
 C:\Users\itzgr\Documents\GitHub\CoD4CustomCamos\CoD4CustomCamos\obj\Debug\CoD4CustomCamos.csproj.SuggestedBindingRedirects.cache
 C:\Users\itzgr\Documents\GitHub\CoD4CustomCamos\CoD4CustomCamos\obj\Debug\CoD4CustomCamos.Form1.resources
 C:\Users\itzgr\Documents\GitHub\CoD4CustomCamos\CoD4CustomCamos\obj\Debug\CoD4CustomCamos.Properties.Resources.resources
 C:\Users\itzgr\Documents\GitHub\CoD4CustomCamos\CoD4CustomCamos\obj\Debug\CoD4CustomCamos.csproj.GenerateResource.cache
 C:\Users\itzgr\Documents\GitHub\CoD4CustomCamos\CoD4CustomCamos\obj\Debug\CoD4CustomCamos.csproj.CoreCompileInputs.cache
-C:\Users\itzgr\Documents\GitHub\CoD4CustomCamos\CoD4CustomCamos\bin\Debug\CoD4Organiser.exe.config
-C:\Users\itzgr\Documents\GitHub\CoD4CustomCamos\CoD4CustomCamos\bin\Debug\CoD4Organiser.exe
-C:\Users\itzgr\Documents\GitHub\CoD4CustomCamos\CoD4CustomCamos\bin\Debug\CoD4Organiser.pdb
 C:\Users\itzgr\Documents\GitHub\CoD4CustomCamos\CoD4CustomCamos\obj\Debug\CoD4Organiser.exe
 C:\Users\itzgr\Documents\GitHub\CoD4CustomCamos\CoD4CustomCamos\obj\Debug\CoD4Organiser.pdb
