@@ -9,3 +9,12 @@ C:\Users\itzgr\Documents\GitHub\CoD4CustomCamos\CoD4CustomCamos\obj\Debug\CoD4Cu
 C:\Users\itzgr\Documents\GitHub\CoD4CustomCamos\CoD4CustomCamos\obj\Debug\CoD4CustomCamos.csproj.CoreCompileInputs.cache
 C:\Users\itzgr\Documents\GitHub\CoD4CustomCamos\CoD4CustomCamos\obj\Debug\CoD4Organiser.exe
 C:\Users\itzgr\Documents\GitHub\CoD4CustomCamos\CoD4CustomCamos\obj\Debug\CoD4Organiser.pdb
+Z:\CoD4Organizer-main\CoD4CustomCamos\bin\Debug\CoD4Organiser.exe.config
+Z:\CoD4Organizer-main\CoD4CustomCamos\obj\Debug\CoD4Organiser.exe
+Z:\CoD4Organizer-main\CoD4CustomCamos\obj\Debug\CoD4Organiser.pdb
+Z:\CoD4Organizer-main\CoD4CustomCamos\bin\Debug\CoD4Organiser.exe
+Z:\CoD4Organizer-main\CoD4CustomCamos\bin\Debug\CoD4Organiser.pdb
+Z:\CoD4Organizer-main\CoD4CustomCamos\obj\Debug\CoD4CustomCamos.csprojResolveAssemblyReference.cache
+Z:\CoD4Organizer-main\CoD4CustomCamos\obj\Debug\CoD4CustomCamos.Form1.resources
+Z:\CoD4Organizer-main\CoD4CustomCamos\obj\Debug\CoD4CustomCamos.Properties.Resources.resources
+Z:\CoD4Organizer-main\CoD4CustomCamos\obj\Debug\CoD4CustomCamos.csproj.GenerateResource.Cache

@@ -39,17 +39,21 @@ namespace CoD4CustomCamos
             else if (!File.Exists("localized_english_iw07.iwd"))
             {
                 checkOtherFilesInstall();
-                createLE07();
+                Directory.CreateDirectory("localized_english_iw07");
+                Directory.CreateDirectory("localized_english_iw07/images");
+                ZipFile.CreateFromDirectory("localized_english_iw07", "localized_english_iw07.iwd");
+                Directory.Delete("localized_english_iw07/images");
+                Directory.Delete("localized_english_iw07");
                 DialogResult dialogResult = MessageBox.Show("Required files renamed and created. Open 'localized_english_iw07.iwd' in 7-Zip or WinRAR, open the images folder and drag your camos in there.");
             }
         }
 
         public void checkOtherFilesInstall()
         {
-            // Very messy but it works, don't slander me
+            // Messy but it works, don't slander me
             if (File.Exists("iw_00.iwd"))
             {
-                renIW00();
+                File.Move("iw_00.iwd", "localized_english_aa.iwd");
             }
             else if (!File.Exists("iw_00.iwd"))
             {
@@ -58,7 +62,7 @@ namespace CoD4CustomCamos
 
             if (File.Exists("iw_01.iwd"))
             {
-                renIW01();
+                File.Move("iw_01.iwd", "localized_english_aab.iwd");
             }
             else if (!File.Exists("iw_01.iwd"))
             {
@@ -67,7 +71,7 @@ namespace CoD4CustomCamos
 
             if (File.Exists("iw_02.iwd"))
             {
-                renIW02();
+                File.Move("iw_02.iwd", "localized_english_aac.iwd");
             }
             else if (!File.Exists("iw_02.iwd"))
             {
@@ -76,7 +80,7 @@ namespace CoD4CustomCamos
 
             if (File.Exists("iw_03.iwd"))
             {
-                renIW03();
+                File.Move("iw_03.iwd", "localized_english_aad.iwd");
             }
             else if (!File.Exists("iw_03.iwd"))
             {
@@ -85,7 +89,7 @@ namespace CoD4CustomCamos
 
             if (File.Exists("iw_04.iwd"))
             {
-                renIW04();
+                File.Move("iw_04.iwd", "localized_english_aae.iwd");
             }
             else if (!File.Exists("iw_04.iwd"))
             {
@@ -94,7 +98,7 @@ namespace CoD4CustomCamos
 
             if (File.Exists("iw_05.iwd"))
             {
-                renIW05();
+                File.Move("iw_05.iwd", "localized_english_aaf.iwd");
             }
             else if (!File.Exists("iw_05.iwd"))
             {
@@ -103,64 +107,13 @@ namespace CoD4CustomCamos
 
             if (File.Exists("iw_06.iwd"))
             {
-                renIW06();
+                File.Move("iw_06.iwd", "localized_english_aag.iwd");
             }
             else if (!File.Exists("iw_06.iwd"))
             {
                 DialogResult dialogResult = MessageBox.Show("File iw_06.iwd doesn't exist.", "File doesn't exist", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
-        }
-
-        public void renIW00()
-        {
-            File.Move("iw_00.iwd", "localized_english_aa.iwd");
-
-        }
-
-        public void renIW01()
-        {
-            File.Move("iw_01.iwd", "localized_english_aab.iwd");
-
-        }
-
-        public void renIW02()
-        {
-            File.Move("iw_02.iwd", "localized_english_aac.iwd");
-
-        }
-
-        public void renIW03()
-        {
-            File.Move("iw_03.iwd", "localized_english_aad.iwd");
-
-        }
-
-        public void renIW04()
-        {
-            File.Move("iw_04.iwd", "localized_english_aae.iwd");
-
-        }
-
-        public void renIW05()
-        {
-            File.Move("iw_05.iwd", "localized_english_aaf.iwd");
-
-        }
-
-        public void renIW06()
-        {
-            File.Move("iw_06.iwd", "localized_english_aag.iwd");
-
-        }
-
-        public void createLE07()
-        {
-            Directory.CreateDirectory("localized_english_iw07");
-            Directory.CreateDirectory("localized_english_iw07/images");
-            ZipFile.CreateFromDirectory("localized_english_iw07", "localized_english_iw07.iwd");
-            Directory.Delete("localized_english_iw07/images");
-            Directory.Delete("localized_english_iw07");
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -180,7 +133,7 @@ namespace CoD4CustomCamos
             // Very messy but it works, don't slander me
             if (File.Exists("localized_english_aa.iwd"))
             {
-                renLEAA();
+                File.Move("localized_english_aa.iwd", "iw_00.iwd");
             }
             else if (!File.Exists("localized_english_aa.iwd"))
             {
@@ -189,7 +142,7 @@ namespace CoD4CustomCamos
 
             if (File.Exists("localized_english_aab.iwd"))
             {
-                renLEAAB();
+                File.Move("localized_english_aab.iwd", "iw_01.iwd");
             }
             else if (!File.Exists("localized_english_aab.iwd"))
             {
@@ -198,7 +151,7 @@ namespace CoD4CustomCamos
 
             if (File.Exists("localized_english_aac.iwd"))
             {
-                renLEAAC();
+                File.Move("localized_english_aac.iwd", "iw_02.iwd");
             }
             else if (!File.Exists("localized_english_aac.iwd"))
             {
@@ -207,7 +160,7 @@ namespace CoD4CustomCamos
 
             if (File.Exists("localized_english_aad.iwd"))
             {
-                renLEAAD();
+                File.Move("localized_english_aad.iwd", "iw_03.iwd");
             }
             else if (!File.Exists("localized_english_aad.iwd"))
             {
@@ -216,7 +169,7 @@ namespace CoD4CustomCamos
 
             if (File.Exists("localized_english_aae.iwd"))
             {
-                renLEAAE();
+                File.Move("localized_english_aae.iwd", "iw_04.iwd");
             }
             else if (!File.Exists("localized_english_aae.iwd"))
             {
@@ -225,7 +178,7 @@ namespace CoD4CustomCamos
 
             if (File.Exists("localized_english_aaf.iwd"))
             {
-                renLEAAF();
+                File.Move("localized_english_aaf.iwd", "iw_05.iwd");
             }
             else if (!File.Exists("localized_english_aaf.iwd"))
             {
@@ -234,7 +187,7 @@ namespace CoD4CustomCamos
 
             if (File.Exists("localized_english_aag.iwd"))
             {
-                renLEAAG();
+                File.Move("localized_english_aag.iwd", "iw_06.iwd");
             }
             else if (!File.Exists("localized_english_aag.iwd"))
             {
@@ -245,42 +198,6 @@ namespace CoD4CustomCamos
         public void renLEAA()
         { 
             File.Move("localized_english_aa.iwd", "iw_00.iwd");
-
-        }
-
-        public void renLEAAB()
-        {
-            File.Move("localized_english_aab.iwd", "iw_01.iwd");
-
-        }
-
-        public void renLEAAC()
-        {
-            File.Move("localized_english_aac.iwd", "iw_02.iwd");
-
-        }
-
-        public void renLEAAD()
-        {
-            File.Move("localized_english_aad.iwd", "iw_03.iwd");
-
-        }
-
-        public void renLEAAE()
-        {
-            File.Move("localized_english_aae.iwd", "iw_04.iwd");
-
-        }
-
-        public void renLEAAF()
-        {
-            File.Move("localized_english_aaf.iwd", "iw_05.iwd");
-
-        }
-
-        public void renLEAAG()
-        {
-            File.Move("localized_english_aag.iwd", "iw_06.iwd");
 
         }
 
